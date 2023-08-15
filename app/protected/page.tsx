@@ -15,16 +15,7 @@ import { mdiAccountMultiplePlusOutline } from "@mdi/js";
 import Head from "next/head";
 
 
-export const getStaticProps = async ({ locale }: { locale: string }) => ({
-  props: {
- 
-  },
-});
-interface IProps {
-  [key: string]: never;
-}
-
-const AbexRoster: React.FC<IProps> = function AbexRoster() {
+export const AbexRoster: React.FC = function AbexRoster() {
   const { values: profileValues, actions: profileActions } = useContext(ProfileContext);
 
   const { t } = useTranslation("abex-roster");
