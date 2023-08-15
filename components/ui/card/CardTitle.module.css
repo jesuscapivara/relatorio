@@ -1,0 +1,22 @@
+.CardTitle {
+  align-items: center;
+  display: flex;
+  font-weight: 500;
+  gap: 8px;
+  padding: 16px;
+  position: relative;
+}
+
+.Action {
+  display: flex;
+  padding: 8px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.HasAction {
+  padding-right: 56px;
+}

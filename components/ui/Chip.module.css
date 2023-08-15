@@ -1,0 +1,9 @@
+.Chip {
+  align-self: center;
+  background-color: var(--reverse-background);
+  border-radius: 8px;
+  color: var(--reverse-text-color);
+  font-size: 0.85em;
+  margin-left: 8px;
+  padding: 4px 8px;
+}

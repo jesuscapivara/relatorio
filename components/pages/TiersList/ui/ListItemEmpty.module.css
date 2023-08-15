@@ -1,0 +1,10 @@
+.ListItemEmpty {
+  color: var(--secondary-text-color);
+  display: block;
+  font-style: italic;
+  font-weight: 100;
+  margin: 0 16px;
+  padding: 12px 0;
+  position: relative;
+  text-decoration: none;
+}

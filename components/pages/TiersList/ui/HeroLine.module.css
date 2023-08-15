@@ -1,0 +1,14 @@
+.HeroLine {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  padding: 4px 16px;
+}
+
+.Name {
+  flex-grow: 1;
+}
+
+.HeroLine > svg {
+  padding: 8px;
+}

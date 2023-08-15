@@ -1,0 +1,12 @@
+.CharacterGrid {
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(auto-fill, 64px);
+  justify-content: center;
+  padding-bottom: 16px;
+}
+
+.CharacterGrid--large {
+  gap: 8px;
+  grid-template-columns: repeat(auto-fill, 64px);
+}

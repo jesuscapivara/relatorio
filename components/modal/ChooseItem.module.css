@@ -1,0 +1,15 @@
+.ChooseItem {
+  display: grid;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  /* max-width: 328px; */
+  grid-template-columns: repeat(auto-fill, 54px);
+  justify-content: center;
+}
+
+.Items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}

@@ -1,0 +1,22 @@
+.CardTab {
+  align-items: center;
+  background: transparent;
+  border: solid transparent;
+  border-width: 0 0 3px;
+  box-sizing: border-box;
+  color: inherit;
+  display: flex;
+  flex-basis: 100%;
+  flex-grow: 1;
+  font-size: inherit;
+  height: 48px;
+  justify-content: center;
+  margin: 0;
+  outline: 0;
+  padding: 0 16px;
+  white-space: nowrap;
+}
+
+.Active {
+  border-bottom: 3px solid var(--accent-color);
+}

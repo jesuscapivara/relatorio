@@ -1,0 +1,29 @@
+.CardAction {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  border-radius: 4px;
+  color: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  height: 36px;
+  margin: 0 8px 0 0;
+  min-width: 64px;
+  outline: 0;
+  padding: 0 16px;
+  transition: var(--transition);
+}
+
+.CardAction:hover {
+  background-color: var(--hover-color);
+}
+
+.CardAction svg {
+  height: 18px;
+  margin-left: -4px;
+  margin-right: 8px;
+  width: 18px;
+}

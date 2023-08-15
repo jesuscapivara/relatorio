@@ -1,0 +1,30 @@
+.StepLine {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  padding: 4px 8px 4px 16px;
+}
+
+.Name {
+  flex-grow: 1;
+}
+
+.StepLine > svg {
+  padding: 8px;
+}
+
+.Image {
+  height: 24px;
+  width: 24px;
+}
+
+.Button {
+  align-items: center;
+  align-self: stretch;
+  background: transparent;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  width: 40px;
+}

@@ -1,0 +1,45 @@
+.Wrapper {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  padding: 4px 24px;
+}
+
+.Label {
+  min-width: 100px;
+}
+
+.Select {
+  appearance: none;
+  background: transparent;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24px' height='24px'><path fill='currentColor' d='M7,10L12,15L17,10H7Z' /></svg>");
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  border: 1px solid var(--card-border-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: inherit;
+  font-family: inherit;
+  font-size: 16px;
+  height: 32px;
+  padding: 0 4px;
+  width: 48px;
+}
+
+.Select option {
+  background-color: var(--card-color);
+}
+
+.Value {
+  background: transparent;
+  border: 1px solid var(--card-border-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: inherit;
+  font-family: inherit;
+  font-size: 16px;
+  height: 32px;
+  padding: 0 4px;
+  width: 32px;
+}

@@ -1,0 +1,62 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.Relic {
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+}
+
+.Relic--1 {
+  background-color: var(--afk-common-color);
+}
+
+.Relic--2 {
+  background-color: var(--afk-rare-color);
+}
+
+.Relic--3 {
+  background-color: var(--afk-elite-color);
+}
+
+.Relic--4 {
+  background-color: var(--afk-legendary-color);
+}
+
+.Relic--5 {
+  background-color: var(--afk-mythic-color);
+}
+
+.Image {
+  height: 40px;
+}
+
+.Counter {
+  align-items: center;
+  background: var(--reverse-background);
+  border-radius: 50%;
+  bottom: 0;
+  color: var(--reverse-text-color);
+  display: flex;
+  font-size: 12px;
+  height: 18px;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  width: 18px;
+}
+
+.Input {
+  background: transparent;
+  border: 1px solid var(--card-border-color);
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: inherit;
+  height: 28px;
+  margin: 2px 0 0;
+  outline: 0;
+  text-align: center;
+  width: 40px;
+}

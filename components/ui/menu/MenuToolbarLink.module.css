@@ -1,0 +1,17 @@
+.MenuToolbarLink {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  height: 60px;
+  justify-content: center;
+  padding: 0 4px;
+  text-decoration: none;
+  transition: var(--transition);
+  width: 52px;
+}
+
+.MenuToolbarLink:hover {
+  background-color: var(--hover-color);
+}

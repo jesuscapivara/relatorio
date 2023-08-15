@@ -1,0 +1,57 @@
+.Wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5em;
+  font-weight: 100;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.Spinner {
+  animation: sk-rotateplane 1.2s infinite linear, colors 2.4s infinite cubic-bezier(0, 1, 0, 1) 0.3s;
+  background-color: var(--text-color);
+  height: 40px;
+  margin-top: 24px;
+  width: 40px;
+}
+
+@keyframes colors {
+  0% {
+    background: var(--afk-rare-color);
+  }
+
+  25% {
+    background: var(--afk-elite-color);
+  }
+
+  50% {
+    background: var(--afk-legendary-color);
+  }
+
+  75% {
+    background: var(--afk-mythic-color);
+  }
+
+  100% {
+    background: var(--afk-ascend-color);
+  }
+}
+
+@keyframes sk-rotateplane {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+
+  50% {
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+
+  100% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}

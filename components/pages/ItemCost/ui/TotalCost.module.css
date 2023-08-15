@@ -1,0 +1,22 @@
+.TotalCost {
+  align-items: center;
+  background-color: var(--hover-color);
+  border-radius: 4px;
+  color: var(--error-text-color);
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  gap: 16px;
+  justify-content: center;
+  margin: 0 16px 16px;
+  padding: 12px 0;
+}
+
+.Diamond {
+  height: 30px;
+  margin-right: 8px;
+}
+
+.Best {
+  color: var(--success-text-color);
+}

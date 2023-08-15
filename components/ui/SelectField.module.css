@@ -1,0 +1,64 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px 16px;
+}
+
+.Wrapper + .Wrapper {
+  margin-top: 8px;
+}
+
+.Wrapper.Small {
+  padding: 0;
+}
+
+.Label {
+  color: var(--secondary-text-color);
+  font-size: 0.75em;
+  font-weight: 300;
+  margin-bottom: 4px;
+}
+
+.LabelLink {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1em;
+  margin-left: 8px;
+  text-decoration: underline;
+}
+
+.SelectField {
+  appearance: none;
+  background: var(--card-color);
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24px' height='24px'><path fill='currentColor' d='M7,10L12,15L17,10H7Z' /></svg>");
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  border: 1px solid var(--card-border-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: inherit;
+  font-family: inherit;
+  font-size: 16px;
+  height: 40px;
+  margin: 0;
+  padding: 4px 20px 4px 16px;
+}
+
+.SelectField option {
+  background-color: var(--card-color);
+}
+
+.Small .SelectField {
+  font-size: 14px;
+  height: 32px;
+  padding: 0 0 0 4px;
+}
+
+.SelectField:focus {
+  border-color: var(--accent-color);
+  box-shadow: 0 2px 3px var(--focus-color);
+  outline: 0;
+}

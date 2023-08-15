@@ -1,0 +1,11 @@
+{
+  "help": "このツールは、目標に到達するために必要な残りのシジルを算出することを目的としています",
+  "form-title": "まず、キャラクター情報を設定してください",
+  "item-primordial-emblem": "原初のシジル",
+  "item-amplifying-emblem": "増幅のシジル",
+  "item-faction-emblem": "陣営のシジル",
+  "item-celest-Hypogean-emblem": "セレスチ/カタストロフのシジル",
+  "label-si": "専用装備 +{{si}}",
+  "label-current-si": "現在の専用装備レベル",
+  "label-target-si": "目標 専用装備レベル"
+}

@@ -1,0 +1,18 @@
+.SearchBox {
+  background-color: var(--hover-color);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 8px 0 0;
+}
+
+.SearchCharacter {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  padding: 0 16px;
+}
+
+.SearchString {
+  flex-grow: 1;
+}

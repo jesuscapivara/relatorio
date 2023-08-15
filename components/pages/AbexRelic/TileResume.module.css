@@ -1,0 +1,30 @@
+.Tiles {
+  align-items: center;
+  display: flex;
+  margin: 4px 16px 0 0;
+}
+
+.TileLevel {
+  align-items: center;
+  background-color: var(--help-background-color);
+  border-radius: 20px;
+  display: inline-block;
+  display: flex;
+  font-size: 0.7em;
+  height: 20px;
+  justify-content: center;
+  margin: 0 4px 0 8px;
+  padding: 0;
+  width: 20px;
+}
+
+.TilesCount {
+  align-items: center;
+  display: flex;
+  gap: 6px;
+  margin: 4px 16px 0;
+}
+
+.TilesCount svg {
+  height: 18px;
+}

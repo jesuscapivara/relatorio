@@ -1,0 +1,105 @@
+.RelicWrapper {
+  align-items: center;
+  display: flex;
+  position: absolute;
+}
+
+.RelicPlus {
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 36px;
+  transition: var(--transition);
+  width: 36px;
+}
+
+.RelicPlus:hover {
+  background-color: var(--hover-color);
+}
+
+.Relic {
+  border: 0;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 50px;
+  outline: 0;
+  padding: 4px;
+  width: 50px;
+}
+
+.Relic--1 {
+  background-color: var(--afk-common-color);
+  color: var(--afk-common-color);
+}
+
+.Relic--2 {
+  background-color: var(--afk-rare-color);
+  color: var(--afk-rare-color);
+}
+
+.Relic--3 {
+  background-color: var(--afk-elite-color);
+  color: var(--afk-elite-color);
+}
+
+.Relic--4 {
+  background-color: var(--afk-legendary-color);
+  color: var(--afk-legendary-color);
+}
+
+.Relic--5 {
+  background-color: var(--afk-mythic-color);
+  color: var(--afk-mythic-color);
+}
+
+.Position--1 {
+  bottom: 0;
+  left: 25%;
+  transform: translate(-50%, 0);
+}
+
+.Position--2 {
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.Position--3 {
+  left: 25%;
+  top: 0;
+  transform: translate(-50%, 0);
+}
+
+.Position--4 {
+  right: 25%;
+  top: 0;
+  transform: translate(50%, 0);
+}
+
+.Position--5 {
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.Position--6 {
+  bottom: 0;
+  right: 25%;
+  transform: translate(50%, 0);
+}
+
+.Check {
+  background: var(--card-color);
+  border-radius: 50%;
+  bottom: -8px;
+  display: flex;
+  padding: 4px;
+  position: absolute;
+  right: -8px;
+}
+
+.Inactive {
+  filter: grayscale(0.8);
+  opacity: 0.5;
+}

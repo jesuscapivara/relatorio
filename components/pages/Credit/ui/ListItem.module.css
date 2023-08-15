@@ -1,0 +1,37 @@
+.ListItem {
+  align-items: center;
+  border-bottom: 1px solid var(--list-border);
+  box-sizing: border-box;
+  display: flex;
+  margin: 0 16px;
+  min-height: 48px;
+  padding: 8px 0;
+  position: relative;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.ListItem::before {
+  bottom: -1px;
+  content: "";
+  left: -16px;
+  position: absolute;
+  right: -16px;
+  top: -1px;
+  transition: var(--transition);
+  z-index: -1;
+}
+
+.ListItem:hover::before {
+  background-color: var(--hover-color);
+}
+
+.ListItem:first-child {
+  border-top: 1px solid var(--list-border);
+}
+
+.ListItem > * {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+}

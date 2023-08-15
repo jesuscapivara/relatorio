@@ -1,0 +1,15 @@
+.CardValue {
+  display: block;
+  margin: 16px;
+  padding: 16px;
+  text-align: center;
+}
+
+.Value {
+  align-items: center;
+  display: inline-flex;
+  font-family: inherit;
+  font-weight: 500;
+  margin: 0 auto;
+  padding: 8px;
+}
